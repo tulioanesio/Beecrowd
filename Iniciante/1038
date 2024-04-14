@@ -1,0 +1,34 @@
+package com.mycompany.problema1038;
+
+import java.util.Scanner;
+
+public class Problema1038 {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int codigo = sc.nextInt();
+        int quantia = sc.nextInt();
+        double total = 0;
+
+        switch (codigo) {
+        
+            case 1: total = quantia * 4.00; 
+            break;
+                
+            case 2: total = quantia * 4.50; 
+            break;
+                
+            case 3: total = quantia * 5.00; 
+            break;
+                
+            case 4: total = quantia * 2.00; 
+            break; 
+                
+            case 5: total = quantia * 1.50; 
+            break;
+        }
+        System.out.println(String.format("Total: R$ %.2f", total));
+
+    }
+}
