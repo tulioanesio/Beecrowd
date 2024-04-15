@@ -1,0 +1,45 @@
+ package com.mycompany.problema1040;
+
+import java.util.Scanner;
+import java.text.DecimalFormat;
+
+public class Problema1040 {
+    public static void main(String args[]) {
+
+        Scanner sc = new Scanner(System.in);
+        DecimalFormat df = new DecimalFormat("#.#");
+
+        double A = sc.nextDouble();
+        double B = sc.nextDouble();
+        double C = sc.nextDouble();
+        double D = sc.nextDouble();
+
+        double n1 = A * 2;
+        double n2 = B * 3;
+        double n3 = C * 4;
+        double n4 = D * 1;
+
+        double media = (n1 + n2 + n3 + n4) / 10;
+
+        System.out.println("Media: " + df.format(media)); // Formatando a média com uma casa decimal
+
+        if (media >= 7.0) {
+            System.out.println("Aluno aprovado.");
+        } else if (media >= 5.0 && media <= 6.9) {
+            System.out.println("Aluno em exame.");
+            double notaexame = sc.nextDouble();
+            System.out.println("Nota do exame: " + df.format(notaexame)); // Formatando a nota do exame com uma casa decimal
+            double examefinal = (notaexame + media) / 2;
+            if (examefinal >= 5.0) {
+                System.out.println("Aluno aprovado.");
+                System.out.println("Media final: " + df.format(examefinal)); // Formatando a média final com uma casa decimal
+            } else {
+                System.out.println("Aluno reprovado.");
+            }
+        } else {
+            System.out.println("Aluno reprovado.");
+        }
+    }
+}
+
+
