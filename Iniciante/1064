@@ -1,0 +1,28 @@
+package problema1064;
+
+import java.util.Scanner;
+
+public class Problema1064 {
+
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
+       
+        int cont = 0;
+        double soma = 0;
+        
+        for(double i = 0; i < 6; i++){
+            double n = sc.nextDouble();
+            if (n > 0) {
+                cont++;
+                soma = soma + n;
+            }
+        }
+        
+        double div = soma / cont;
+        
+        System.out.println(cont + " valores positivos");
+        System.out.printf("%.1f\n", div);
+    }
+}
+
