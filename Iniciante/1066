@@ -1,0 +1,33 @@
+package problema1066;
+
+import java.util.Scanner;
+
+public class Problema1066 {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int contpar = 0;
+        int contimpar = 0;
+        int contpos = 0;
+        int contneg = 0;
+
+        for (int i = 0; i < 5; i++) {
+            int numero = sc.nextInt();
+            if (numero % 2 == 0) {
+                contpar++;
+            } else {
+                contimpar++;
+            }
+            if (numero > 0) {
+                contpos++;
+            } else if (numero < 0) {
+                contneg++;
+            }
+        }
+        System.out.println(contpar + " valor(es) par(es)");
+        System.out.println(contimpar + " valor(es) impar(es)");
+        System.out.println(contpos + " valor(es) positivo(s)");
+        System.out.println(contneg + " valor(es) negativo(s)");
+    }
+}
