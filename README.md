@@ -23,9 +23,7 @@ previstos de devolução.
 todos os empréstimos realizados, informando a ferramenta emprestada, o amigo que
 pegou emprestado, a data de empréstimo e os dados de devolução e qual amigo faz
 mais empréstimos.
-- RF08 - Agenda integrada: O software deve compartilhar os lembretes de avisos dos
-eventos por e-mail.
-- RF09 - Verificação de ferramentas não devolvidas: O software deve verificar a cada
+- RF08 - Verificação de ferramentas não devolvidas: O software deve verificar a cada
 novo empréstimo se o amigo ainda tem ferramentas não devolvidas e informar ao
 usuário.
 
@@ -36,12 +34,9 @@ usuário, sem necessidade de conexão com a internet.
 adequada para usuários não técnicos, como o tio-avô.
 - RNF03 - Segurança: O software deve garantir a segurança dos dados cadastrados,
 protegendo informações pessoais e financeiras dos usuários.
-- RNF04 - Integração com o Google agenda: O sistema deve integrar-se de forma eficaz
-e confiável com a Google agenda, garantindo o compartilhamento correto de
-lembretes de eventos.
 
 # Banco de dados
-- Abaixo o script para a criação do banco de dados e da tabela, altere o arquivo **FerramentaDAO** e **AmigoDAO** Unisul@1520
+- Abaixo o script para a criação do banco de dados e da tabela
 ```
 #o comando abaixo cria o database chamado db_A3
 CREATE DATABASE IF NOT EXISTS db_A3;
