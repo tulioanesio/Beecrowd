@@ -47,7 +47,7 @@ protegendo informações pessoais e financeiras dos usuários.
 # Banco de dados
 - Abaixo o script para a criação do banco de dados e da tabela
 
-[Script BD]([https://github.com/ThuysaLuvison/A3EmprestimosFerramentas/blob/master/banco.sql](https://github.com/tulioanesio/Beecrowd/blob/main/banco.sql)
+[Script BD](https://github.com/tulioanesio/Beecrowd/blob/main/banco.sql)
 
 # Criadores
 - Bruno Hudson Siebert Costa
