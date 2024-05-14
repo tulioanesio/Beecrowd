@@ -39,3 +39,27 @@ protegendo informações pessoais e financeiras dos usuários.
 - RNF04 - Integração com o Google agenda: O sistema deve integrar-se de forma eficaz
 e confiável com a Google agenda, garantindo o compartilhamento correto de
 lembretes de eventos.
+
+# Banco de dados
+- Abaixo o script para a criação do banco de dados e da tabela.
+```
+CREATE DATABASE IF NOT EXISTS db_A3;
+USE db_A3;
+DROP TABLE IF EXISTS tb_ferramentas;
+CREATE TABLE tb_ferramentas (
+id INTEGER NOT NULL,
+ferramenta VARCHAR(100),
+marca VARCHAR(50),
+preco DOUBLE,
+PRIMARY KEY(id)
+);
+USE db_A3;
+DROP TABLE IF EXISTS tb_amigos;
+CREATE TABLE tb_amigos (
+id INTEGER NOT NULL,
+nome VARCHAR(100),
+telefone VARCHAR(50),
+PRIMARY KEY(id)
+);
+```
+
