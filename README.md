@@ -1,6 +1,15 @@
 # Projeto A3 Unisul primeira fase
 
-# Objetivo:
+# Contextualização
+- Esta é uma versão do sistema para a IDE NetBeans.
+- O projeto no NetBeans deve ser chamado A3EmprestimosFerramentas.
+- Os dados estão armazenados no banco de dados MySQL.
+- Este programa possui diversas classes organizada nos pacotes principal, model, view e dao.
+- A pasta src contêm os fontes do projeto.
+- A interface gráfica foi construída com o auxílio da IDE NetBeans.
+
+# Objetivo 
+- 
 
 # Requisitos funcionais
 - RF01 - Cadastro de ferramentas: O software deve permitir que o usuário cadastre as
