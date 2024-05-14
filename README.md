@@ -9,7 +9,7 @@
 - A interface gráfica foi construída com o auxílio da IDE NetBeans.
 
 # Objetivo 
-- 
+- O objetivo desse trabalho é de demonstrar conhecimento em desenvolver habilidades básicas sobre programação, resolvendo problemas e criando soluções para alcançar os objetivos propostos. 
 
 # Requisitos funcionais
 - RF01 - Cadastro de ferramentas: O software deve permitir que o usuário cadastre as
